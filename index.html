@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .banner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      background-color:black ;
+      text-align: center;
+      font-size: 24px;
+    }
+    .option{
+      flex-grow: 1;
+      height: 100%;
+      line-height: 100px;
+      font-family: cursive;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: white;
+      font-size: 22px;
+    }
+
+    .container {
+      display: flex;
+      align-content: center;
+    }
+
+    button1{
+      background-color: #ff99c8;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border-color:#ff99c8;
+    }
+
+    button2{
+      background-color: #fcf6bd;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border-color:#fcf6bd;
+    }
+
+    button3{
+      background-color: #d0f4de;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border-color:#d0f4de;
+    }
+    button4{
+      background-color: #e4c1f9;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border-color:#e4c1f9;
+    }
+
+    container2{
+      display: flex;
+      align-items: center;
+      justify-content:center;
+    }
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="banner">
+    <div class="option"><a href="resume.html">Resume</a></div>
+    <div class="option"><a href="projects.html">Projects</a></div>
+    <div class="option"><a href="index.html"><img src="Name.png" alt="name" height="100" width="250"></a></div>
+    <div class="option"><a href="contact.html">Contact Me</a></div>
+    <div class="option"><a href="fun.html">Funsies</a></div>
+    </div>
+
+  <div class="container">
+      <div class="image2">
+         <div class="image"><img src="hello.png" alt="hi" height="590px" width="800px"></div>        
+        <div class="conatainer2">
+        <button1 onclick="resume()">My Resume</button1>
+          <script>
+            function resume() {
+              location.replace("resume.html")
+            }
+          </script>
+        <button2 onclick="projects()">My Projects</button2>
+            <script>
+              function projects() {
+                location.replace("projects.html")
+              }
+            </script>
+        <button3 onclick="contact()">Contact Me</button3>
+            <script>
+              function contact() {
+                location.replace("contact.html")
+              }
+            </script>
+        <button4 onclick="funsies()">Funsies</button4>
+          <script>
+            function funsies() {
+              location.replace("fun.html")
+            }
+          </script>
+        </div>
+      
+      </div>
+    
+      <div class="image"><img src="myphoto.png" alt="myphoto" height="650px" width="650px"></div>
+    
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                Who am I?
+            </div>
+            <div class="card-back">
+                Hi! My name is Taneshka Reddy and I am a rising Sophmore in HighSchool. I am the graduating class of 2027. I am 15 years old and am involed around school a lot. I go to Emerald High School and I take part in leadership activties and clubs. 
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front2">
+                What do I like?
+            </div>
+            <div class="card-back2">
+                I love to Dance. I have been dancing for 8 years now. I do Classical Dance, Bollywood, and Hip Hop. I also enjoy playing tennis too. I am part of the tennis team for my school and I play singles varsity. Beside these i love to bake and do art.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front3">
+                My Future?
+            </div>
+            <div class="card-back3">
+                I dont have anything set in stone yet but I am leanng towards buisness. I would love to do marketing. I enjoy computer science so I might minor in Computer Science as well! 
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front4">
+                Random Thoughts
+            </div>
+            <div class="card-back4">
+                I perfer to watch TV Shows than read books. If I were to read I would read graphic novels and comic books. I love Kpop! I love going on walks with my friends. You know, Boba is amazing! I love Sanrio. They are just too cute!!
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
